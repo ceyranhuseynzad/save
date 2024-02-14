@@ -1,0 +1,154 @@
+#featured-job {
+    padding: 100px 0;
+
+    .features {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        .feature-cards {
+            flex-wrap: wrap;
+            display: flex;
+            justify-content: space-around;
+            gap: 30px;
+           
+
+            .full {
+                p {
+                    color: #03b4ef;
+                }
+
+                background-color: #8ddcf6;
+                border-radius: 15px;
+                padding: 5px;
+
+            }
+
+            .private {
+                p {
+                    color: green;
+                }
+
+                background-color: rgb(188, 255, 188);
+                border-radius: 15px;
+                padding: 5px;
+
+            }
+
+            .urgent {
+                p {
+                    color: orange;
+                }
+
+                background-color: rgb(220, 191, 139);
+                border-radius: 15px;
+                padding: 5px;
+
+            }
+        }
+
+        .f-card {
+            width: 350px;
+            height: 470px;
+            background-color: white;
+            border-radius: 24px;
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            padding-top: 20px;
+            border: 1px solid gray;
+            box-shadow: 10px 10px 5px lightblue;
+
+
+            .apply {
+                background-color: #2a6af3;
+
+                border-radius: 10px;
+                padding: 0 10px;
+                font-weight: 900;
+                color: white;
+
+
+
+
+                transition: all 0.2s linear;
+
+                &:hover {
+                    box-shadow: inset 10rem 0 0 0 rgb(15, 162, 241), inset -10rem 0 0 0 rgb(0, 149, 255);
+                    color: white;
+                }
+
+                p {
+                    color: white;
+                }
+            }
+
+            .bi {
+                color: #fafeff;
+                font-size: 30px;
+                background: #03b4ef;
+                padding: 10px 20px;
+                margin-top: 40px;
+                border-radius: 10px;
+            }
+
+            span {
+                color: #8f0fd4;
+            }
+
+            p {
+                font-size: 20px;
+
+                color: gray;
+
+
+            }
+            .ft{
+                display: flex;
+                flex-direction: column;
+
+            }
+
+            .fa,
+            .fb,
+            .fd
+             {
+                display: flex;
+                justify-content: space-around;
+            }
+        }
+
+        .find {
+            display: flex;
+            justify-content: space-around;
+
+            .sort {
+                display: flex;
+                justify-content: space-around;
+                gap: 10px;
+
+                .s {
+                    background-color: #069cd0;
+                    border-radius: 20px;
+                    height: 55px;
+                    padding: 0 30px;
+                    font-weight: 900;
+                    color: white;
+                    margin: auto;
+
+
+
+
+                    transition: all 0.5s linear;
+
+                    &:hover {
+                        box-shadow: inset 10rem 0 0 0 white, inset -10rem 0 0 0 white;
+                        color: rgb(71, 161, 245);
+                    }
+
+                }
+            }
+        }
+    }
+
+}
